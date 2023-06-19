@@ -5,7 +5,7 @@ Algorithm for Node Runners help find better inbound liquidity, reblance, open an
 ## Roadmap
 
 - [x] PoC
-- [ ] Initial algorithm development
+- [x] Initial algorithm development
 - [ ] Alpha plataform
 - [ ] Lightning Network integration 
 
