@@ -6,7 +6,7 @@ Algorithm for Node Runners help find better inbound liquidity, reblance, open an
 
 - [x] [PoC](https://github.com/AreaLayer/Bolt-Machine-AI)
 - [x] Initial algorithm development
-- [ ] [Integration with  API ChatGPT-4](https://platform.openai.com/docs/introduction/overview)
+- [x] [Integration with  API ChatGPT-4](https://platform.openai.com/docs/introduction/overview)
 - [ ] [Integration with  Aperture](https://github.com/lightninglabs/aperture/tree/master)
 - [ ] Alpha plataform
 - [ ] Lightning Network integration 
