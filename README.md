@@ -9,5 +9,5 @@ Algorithm for Node Runners help find better inbound liquidity, reblance, open an
 - [x] [Integration with  API ChatGPT-4](https://platform.openai.com/docs/introduction/overview)
 - [ ] [Integration with  Aperture](https://github.com/lightninglabs/aperture/tree/master)
 - [ ] Alpha plataform
-- [ ] Lightning Network integration 
+- [x] Lightning Network integration 
 
