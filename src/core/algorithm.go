@@ -5,7 +5,7 @@ import (
 	"math/rand"
 
 	openai "github.com/openai/openai-go"
-	aperture "github.com/aperture-io/api-go"
+	aperture "github.com/lightninglabs/aperture"
 )
 
 type Channel struct {
