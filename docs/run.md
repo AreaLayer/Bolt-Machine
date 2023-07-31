@@ -1,4 +1,4 @@
-# Go Program Documentation
+# Bolt Machine
 
 ## Overview
 This Go program demonstrates an algorithm for managing channels in a Lightning Network. It uses various modules to perform actions such as opening, closing, replacing channels, and finding better inbound liquidity. The program incorporates APIs from OpenAI and Aperture for enhanced functionality.
