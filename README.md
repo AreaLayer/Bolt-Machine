@@ -4,7 +4,7 @@ Algorithm for Node Runners help find better inbound liquidity, reblance, open an
 
 ## Run app
 
-Soon
+Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
 ## Roadmap
 
