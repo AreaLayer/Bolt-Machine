@@ -1,0 +1,8 @@
+Website = "https://github.com/AreaLayer/Bolt-Machine"
+
+[Details]
+  Icon = "AppIcon.png"
+  Name = "Bolt Machine"
+  ID = "com.arealayer.boltmachine"
+  Version = "1.0.0-alpha"
+  Build = 3
