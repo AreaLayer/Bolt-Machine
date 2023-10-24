@@ -14,5 +14,6 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] [Integration with  Aperture](https://github.com/lightninglabs/aperture/tree/master)
 - [x] Alpha plataform
 - [ ] CLI
+- [ ] UI
 - [x] Lightning Network integration 
 
