@@ -15,5 +15,6 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [x] Alpha plataform
 - [ ] CLI
 - [ ] UI
+- [ ] Clear documentation
 - [x] Lightning Network integration 
 
