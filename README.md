@@ -1,5 +1,7 @@
 # Bolt Machine 🤖 ⚡
 
+Algorithm for Node Runners help find better inbound liquidity, reblance, open and close channel on Lightning Network
+
 **⚠️Alpha software**
 
 **⚠️Use small amount**
@@ -7,8 +9,6 @@
 **⚠️Use testnet mode**
 
 **Currenctly support only LND**
-
-Algorithm for Node Runners help find better inbound liquidity, reblance, open and close channel on Lightning Network
 
 ## Run app
 
