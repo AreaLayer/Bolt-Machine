@@ -1,7 +1,9 @@
 # Bolt Machine 🤖 ⚡
 
 **⚠️Alpha software**
+
 **⚠️Use small amount**
+
 **⚠️Use testnet mode**
 
 **Currenctly support only LND**
