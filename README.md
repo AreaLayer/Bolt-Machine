@@ -18,5 +18,8 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] CLI
 - [ ] UI
 - [ ] Clear documentation
-- [x] Lightning Network integration 
+- [x] Lightning Network integration  (LND)
+- [ ] CLN
+- [ ] LDK (sample node)
+- [ ] Eclair
 
