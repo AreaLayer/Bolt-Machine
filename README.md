@@ -22,7 +22,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] [Integration with  Aperture](https://github.com/lightninglabs/aperture/tree/master)
 - [x] Alpha plataform
 - [ ] CLI
-- [ ] UI
+- [ ] [UI](https://github.com/AreaLayer/Bolt-Machine-ln)
 - [ ] Clear documentation
 - [x] Lightning Network integration  (LND)
 - [ ] CLN
