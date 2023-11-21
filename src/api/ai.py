@@ -8,7 +8,11 @@ import nest_asyncio
 
 nest_asyncio.apply()
 
+def data
 
+def inbound
+
+def outbound
 
 def multiply(a: int, b: int) -> int:
     """Multiple two integers and returns the result integer"""
