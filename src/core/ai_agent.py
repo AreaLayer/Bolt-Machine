@@ -8,6 +8,15 @@ import nest_asyncio
 
 nest_asyncio.apply()
 
+def data (a:int , b: int) -> int:
+    "multiple push data around liquidity"
+
+def inbound (a: int , b: int) -> int:
+    "multiple data about inbound liquidity"
+
+def outbound
+(a: int , b: int) -> int:
+    "multiple data about outbound liquidity"
 
 
 def multiply(a: int, b: int) -> int:
