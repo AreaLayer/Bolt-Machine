@@ -28,7 +28,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] CLN
 - [ ] LDK (sample node)
 - [ ] Replace algorithm from Go to Phython
-- [ ] AI Agent powered by OpenAI
+- [x] AI Agent powered by OpenAI
 - [ ] Eclair
 
 ## License ⚠️
