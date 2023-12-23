@@ -21,6 +21,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [x] [Integration with  API ChatGPT-4](https://platform.openai.com/docs/introduction/overview)
 - [ ] [Integration with  Aperture](https://github.com/lightninglabs/aperture/tree/master)
 - [x] Alpha plataform
+- [ ] FOSS
 - [ ] Compile Go and PY
 - [ ] CLI
 - [ ] [UI](https://github.com/AreaLayer/Bolt-Machine-ln)
