@@ -1,4 +1,4 @@
-Copyright Area Layer Inc. 2023. All rights reserved.
+Copyright Area Layer Inc. 2024. All rights reserved.
 
 You acknowledge and agree that Area Layer Inc. (“Area Layer”) (or Area Layer’s licensors) own all legal right, title, and interest in and to the work, software, application, source code, documentation, and any other documents in this repository (collectively, the “Script”), including any intellectual property rights which subsist in the Script (whether those rights happen to be registered or not, and wherever in the world those rights may exist), whether in source code or any other form.
 
