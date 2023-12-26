@@ -32,6 +32,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] Replace algorithm from Go to Phython
 - [x] AI Agent powered by OpenAI
 - [ ] Eclair
+- [ ] Release in 2024
 
 ## License ⚠️
 
