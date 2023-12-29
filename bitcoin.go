@@ -1,1 +1,1 @@
-import { go-bitcoin }
+import { go-bitcoin } from 'go-bitcoin';
