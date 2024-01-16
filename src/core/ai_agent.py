@@ -39,3 +39,5 @@ def data (a:int, b:int ) -> int:
 
 def api (a:int , b:int ) -> int
     "multiple push apis"
+
+def ligjtning node
