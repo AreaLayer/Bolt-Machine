@@ -10,7 +10,7 @@ AI Agent for Node Runners help find better inbound liquidity, reblance, open and
 
 **Currenctly support only LND**
 
-## Run app
+## Run AI Agent
 
 Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
