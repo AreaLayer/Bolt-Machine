@@ -12,10 +12,10 @@ To run this program, you need to have the following prerequisites installed:
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/AreaLayer/Bolt-Machine.git
 
 2. Change into the project directory:
-cd your-repo
+cd your-bolt-machine
 
 
 3. Install the necessary Go packages:
