@@ -3,6 +3,7 @@ from typing import Sequence, List
 
 from llama_index.llms import OpenAI, ChatMessage
 from llama_index.tools import BaseTool, FunctionTool
+from lightning import Data, Channel
 
 import nest_asyncio
 
