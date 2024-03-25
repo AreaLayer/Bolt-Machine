@@ -1,3 +1,7 @@
 # OpenAI
 
+$ AI
+
 # LND
+
+$ lncli
