@@ -4,4 +4,6 @@ $ AI
 
 # LND
 
-$ lncli
+$ lncli openchannel
+$ lncli closechannel
+$ lncli getinfo
