@@ -2,8 +2,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	openai "github.com/openai/openai-go"
-	aperture "github.com/aperture-io/api-go"
+         "github.com/openai/openai-go"
+	"github.com/aperture-io/api-go"
 	"github.com/lightningnetwork/lnd/lnrpc"
 	"google.golang.org/grpc"
 )
