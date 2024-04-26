@@ -1,6 +1,6 @@
 # OpenAI
 
-$ AI
+run
 
 # LND
 
