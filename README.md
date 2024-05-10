@@ -1,4 +1,4 @@
-# Bolt Machine 🤖 
+# Bolt Machine 🤖 ⚡
 
 AI Agent for Node Runners help find better inbound liquidity, reblance, open and close channel on Lightning Network
 
@@ -32,6 +32,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [x] AI Agent powered by OpenAI
 - [ ] Eclair
 - [ ] Release in 2024 (beta)
+- [ ] BOLT12
 
 ## License ⚠️
 
