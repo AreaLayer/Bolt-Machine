@@ -31,6 +31,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] Eclair
 - [ ] Release in 2024 (beta)
 - [ ] BOLT12
+- [ ] Testnet4
 
 ## License ⚠️
 
