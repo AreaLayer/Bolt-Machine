@@ -26,6 +26,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] Clear documentation
 - [ ] CLN
 - [ ] LDK (sample node)
+- [ ] Dockerfile
 - [ ] Replace algorithm from Go to Phython
 - [x] AI Agent powered by OpenAI
 - [ ] Eclair
