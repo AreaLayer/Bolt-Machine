@@ -6,7 +6,7 @@ AI Agent for Node Runners help find better inbound liquidity, reblance, open and
 
 **⚠️Use small amount**
 
-**⚠️Use testnet mode**
+**⚠️Don't use for mainnet**
 
 **⚠️Currenctly support only LND**
 
