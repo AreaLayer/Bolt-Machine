@@ -8,7 +8,7 @@ This Go program demonstrates an algorithm for managing channels in a Lightning N
 To run this program, you need to have the following prerequisites installed:
 - Go programming language (21.6)
 - OpenAI API key
-- LND (Lightning Network Daemon) configured and running - v0.17.3-beta
+- LND (Lightning Network Daemon) configured and running last version  
 
 ## Installation
 1. Clone the repository:
