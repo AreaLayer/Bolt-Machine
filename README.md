@@ -1,6 +1,6 @@
 # Bolt Machine 🤖 ⚡
 
-AI Agent for Node Runners help find better inbound liquidity, reblance, open and close channel on Lightning Network
+>AI Agent for Node Runners help find better inbound liquidity, reblance, open and close channel on Lightning Network
 
 **⚠️Alpha software**
 
