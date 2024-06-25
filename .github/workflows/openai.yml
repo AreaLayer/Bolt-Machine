@@ -1,11 +1,11 @@
 
-openapi: 3.0.3
+openapi: v3.0.3
 info:
   title: Bolt Machine
   license:
     name: MIT
     url: https://mit-license.org/
-  version: 0.1.0
+  version: 1.0.9
 servers:
   - url: http://localhost:3001
   - url: http://localhost:3002
@@ -21,5 +21,5 @@ tags:
     description: APIs to perform operations related to LN invoices
   - name: On-chain
     description: APIs to perform on-chain operations
-  - name: RGB
+  - name: LND
     description: APIs to perform RGB operations
