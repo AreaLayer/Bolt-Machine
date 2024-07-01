@@ -28,6 +28,9 @@ impl namespace Taproot {
 
 impl networks {
   export function fromString(str: string): Network {
+    if (!networks[str]) {
+      throw new Error(`Unknown network: ${str}`);
+    }
     return networks[str];
   }
 }
