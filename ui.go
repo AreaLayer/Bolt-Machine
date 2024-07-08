@@ -6,6 +6,7 @@ export const UserProviders = [
   {
     provide: UserInterface,
     useClass: UserService,
+    useClass: User,
   },
 ];
 
