@@ -28,7 +28,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] LDK (sample node)
 - [ ] Dockerfile
 - [ ] Replace algorithm from Go to Phython
-- [ ] Local LLMs
+- [ ] Local LLMs (Llama)
 - [x] AI Agent powered by OpenAI
 - [ ] Eclair
 - [ ] Release in 2024 (beta)
