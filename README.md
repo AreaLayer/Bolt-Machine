@@ -35,6 +35,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] BOLT12
 - [ ] BOLT11
 - [ ] Testnet4
+- [ ] Testnet3
 
 ## License ⚠️
 
