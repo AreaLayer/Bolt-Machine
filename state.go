@@ -15,4 +15,12 @@ fn run() {
 
 run();
 
+fn main() {
+	let mut sm = StateMachine::new();
+	sm.run();
+}
+
+fn run() {
+	main();
+}
 
