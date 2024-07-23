@@ -76,7 +76,7 @@ pickleshare==0.7.5
 platformdirs==2.6.2
 prometheus-client==0.17.0
 prompt-toolkit==3.0.38
-protobuf==4.23.1
+protobuf==4.25.3
 psutil==6.0.0
 ptyprocess==0.7.0
 pure-eval==0.2.2
