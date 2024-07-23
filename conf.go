@@ -9,4 +9,6 @@ func main() {
 	fmt.Println("Config is", conf.Config)
 }
 
-
+func init() {
+	conf.Config = "config.json"
+}
