@@ -25,7 +25,7 @@ fastjsonschema==2.20.0
 fqdn==1.5.1
 frozenlist==1.4.1
 googleapis-common-protos==1.63.2
-greenlet==2.0.2
+greenlet==3.0.3
 grpcio==1.65.1
 grpcio-tools==1.65.1
 idna==3.7
