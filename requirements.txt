@@ -50,7 +50,7 @@ langchain-community==0.2.5
 langchain-core==0.1.42
 langchain-openai==0.1.1
 MarkupSafe==2.1.5
-marshmallow==3.19.0
+marshmallow==3.21.3
 marshmallow-enum==1.5.1
 matplotlib-inline==0.1.6
 mistune==3.0.1
