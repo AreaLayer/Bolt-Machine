@@ -104,7 +104,7 @@ tenacity==8.2.2
 terminado==0.17.1
 tinycss2==1.2.1
 tornado==6.4.1
-tqdm==4.66.3
+tqdm==4.66.4
 traitlets==5.9.0
 typing-inspect==0.8.0
 typing-extensions>=4.7,<5
