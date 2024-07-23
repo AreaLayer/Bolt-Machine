@@ -113,5 +113,5 @@ urllib3==2.2.2
 wcwidth==0.2.6
 webcolors==24.6.0
 webencodings==0.5.1
-websocket-client==1.6.0
+websocket-client==1.8.0
 yarl==1.9.2
