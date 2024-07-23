@@ -56,7 +56,7 @@ matplotlib-inline==0.1.7
 mistune==3.0.2
 multidict==6.0.5
 mypy-extensions==1.0.0
-nbclassic==1.0.0
+nbclassic==1.1.0
 nbclient==0.8.0
 nbconvert==7.6.0
 nbformat==5.9.0
