@@ -90,7 +90,7 @@ python-dateutil==2.8.2
 python-dotenv==1.0.1
 python-json-logger==2.0.7
 PyYAML==6.0.1
-pyzmq==25.1.0
+pyzmq==26.0.3
 requests==2.32.2
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
