@@ -48,7 +48,7 @@ langchain==0.2.3
 langchainhub==0.1.15
 langchain-community==0.2.5
 langchain-core==0.1.42
-langchain-openai==0.1.1
+langchain-openai==0.1.17
 MarkupSafe==2.1.5
 marshmallow==3.19.0
 marshmallow-enum==1.5.1
