@@ -80,7 +80,7 @@ protobuf==5.27.2
 psutil==6.0.0
 ptyprocess==0.7.0
 pure-eval==0.2.3
-pycparser==2.21
+pycparser==2.22
 pydantic==2.8.2
 Pygments==2.15.1
 pymacaroons==0.13.0
