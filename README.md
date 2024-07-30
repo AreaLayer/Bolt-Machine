@@ -25,14 +25,12 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] FOSS in 2024
 - [ ] Compile Go and PY
 - [ ] CLI
-- [ ] [UI](https://github.com/AreaLayer/Bolt-Machine-ln)
 - [ ] Clear documentation
 - [ ] CLN
 - [ ] LDK (sample node)
-- [ ] Dockerfile
+- [x] Dockerfile
 - [ ] Replace algorithm from Go to Phython
 - [ ] Local LLMs (Llama)
-- [x] AI Agent powered by OpenAI
 - [ ] Eclair
 - [ ] Release in 2024 (beta)
 - [ ] BOLT12
