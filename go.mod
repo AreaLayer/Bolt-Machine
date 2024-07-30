@@ -1,4 +1,4 @@
-module github.com/AreaLayer/Bolt-Machine
+module github.com/AreaLayer/Bolt-Machine v1.0.10-beta
 
 require github.com/lightninglabs/aperture v0.3.2-beta
 
@@ -41,6 +41,7 @@ require (
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/cli v20.10.17+incompatible // indirect
 	github.com/docker/docker v26.1.4+incompatible // indirect
+	require github.com/docker/docker v26.1.4 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dsnet/compress v0.0.1 // indirect
