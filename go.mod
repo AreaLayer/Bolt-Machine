@@ -1,4 +1,4 @@
-module github.com/AreaLayer/Bolt-Machine
+module github.com/AreaLayer/Bolt-Machine v1.0.10-beta
 
 require github.com/lightninglabs/aperture v0.3.2-beta
 
