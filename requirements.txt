@@ -46,7 +46,7 @@ jupyter_server_terminals==0.5.3
 jupyterlab-pygments==0.3.0
 langchain==0.2.12 
 langchainhub==0.1.20
-langchain-community==0.2.10
+langchain-community==0.2.11
 langchain-core==0.2.27
 langchain-openai==0.1.20
 MarkupSafe==2.1.5
