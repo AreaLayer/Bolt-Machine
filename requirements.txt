@@ -47,7 +47,7 @@ jupyterlab-pygments==0.3.0
 langchain==0.2.13 
 langchainhub==0.1.21
 langchain-community==0.2.12
-langchain-core==0.2.30
+langchain-core==0.2.31
 langchain-openai==0.1.21
 MarkupSafe==2.1.5
 marshmallow==3.21.3
