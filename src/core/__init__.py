@@ -1,2 +1,2 @@
-from .lightning import LndNode
-from .lightning import LightningNode
+from .lndgrpc import LndNode
+from .lndgrpc import LightningNode
