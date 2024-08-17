@@ -1,59 +1,66 @@
+
 # Bolt Machine
 
 ## Overview
-This Go program demonstrates an algorithm for managing channels in a Lightning Network. It uses various modules to perform actions such as opening, closing, replacing channels, and finding better inbound liquidity. The program incorporates APIs from OpenAI and Aperture for enhanced functionality.
+This Python program demonstrates an algorithm for managing channels in a Lightning Network. It uses various modules to perform actions such as opening, closing, replacing channels, and finding better inbound liquidity. The program incorporates APIs from Ollama and Aperture for enhanced functionality.
 
 ## Prerequisites
 
 To run this program, you need to have the following prerequisites installed:
-- Go programming language (21.6)
-- OpenAI API key
-- LND (Lightning Network Daemon) configured and running last version  
+- Python 3.9+
+- Ollama API key
+- LND (Lightning Network Daemon) configured and running the latest version
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/AreaLayer/Bolt-Machine.git
+   ```bash
+   git clone https://github.com/AreaLayer/Bolt-Machine.git
+   ```
 
 2. Change into the project directory:
-cd your-bolt-machine
+   ```bash
+   cd your-bolt-machine
+   ```
 
-
-3. Install the necessary Go packages:
-go get -u github.com/openai/openai-go
-go get -u github.com/aperture-io/api-go
-go get -u github.com/lightningnetwork/lnd
-
+3. Install the necessary Python packages:
+   ```bash
+   pip install ollama aperture
+   pip install lnd-grpc
+   ```
 
 ## Configuration
-1. Set up OpenAI API:
-- Obtain an OpenAI API key from the OpenAI website.
-- Replace `"YOUR_OPENAI_API_KEY"` in the code with your actual API key.
+1. Set up Ollama API:
+   - Obtain an Ollama API key from the Ollama website.
+   - Replace `"YOUR_OLLAMA_API_KEY"` in the code with your actual API key.
 
 2. Set up Aperture API:
-- Obtain an Aperture API token from the Aperture website.
-- Replace `"YOUR_APERTURE_API_TOKEN"` in the code with your actual API token.
+   - Obtain an Aperture API token from the Aperture website.
+   - Replace `"YOUR_APERTURE_API_TOKEN"` in the code with your actual API token.
 
 3. Set up LND:
-- Ensure LND is properly installed and running.
-- Configure the LND connection details (host, port, TLS certificate) in the code.
+   - Ensure LND is properly installed and running.
+   - Configure the LND connection details (host, port, TLS certificate) in the code.
 
 ## Usage
 1. Open a terminal and navigate to the project directory.
 
-2. Build the Go program:
-go build
+2. Run the Python program:
+   ```bash
+   python main.py
+   ```
 
-3. Run the program:
-./your-repo
-
-
-4. The program will simulate the AI performing actions based on a random selection. The available actions are:
-- 0: OpenChannel
-- 1: CloseChannel
-- 2: ReplaceChannel
-- 3: FindBetterInboundLiquidity
+3. The program will simulate the AI performing actions based on a random selection. The available actions are:
+   - 0: OpenChannel
+   - 1: CloseChannel
+   - 2: ReplaceChannel
+   - 3: FindBetterInboundLiquidity
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+```
 
-
+### Key Changes:
+1. **Language Shift**: Documentation has been updated to reference Python instead of Go.
+2. **API Update**: All mentions of OpenAI have been replaced with Ollama API.
+3. **Installation Instructions**: Updated installation commands to use Python’s package management (`pip`) instead of Go.
+4. **Running the Program**: Instructions for running the Python script have been updated accordingly.
