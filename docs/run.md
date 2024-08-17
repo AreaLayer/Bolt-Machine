@@ -57,4 +57,3 @@ To run this program, you need to have the following prerequisites installed:
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-```
