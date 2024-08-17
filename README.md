@@ -23,7 +23,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] FOSS in 2024
 - [ ] Compile PY
 - [ ] CLI
-- [ ] Clear documentation
+- [x] Clear documentation
 - [ ] CLN
 - [ ] LDK (sample node)
 - [x] Dockerfile
@@ -35,6 +35,8 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [ ] BOLT11
 - [ ] Testnet4
 - [ ] Testnet3
+- [ ] Tests
+
 
 ## Contributors
 
