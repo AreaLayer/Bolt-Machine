@@ -20,17 +20,15 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 ## Roadmap
 
 - [x] Initial algorithm development
-- [x] [Integration with  API ChatGPT-4](https://platform.openai.com/docs/introduction/overview)
-- [x] [Integration with  Aperture](https://github.com/lightninglabs/aperture/tree/master)
 - [ ] FOSS in 2024
-- [ ] Compile Go and PY
+- [ ] Compile PY
 - [ ] CLI
 - [ ] Clear documentation
 - [ ] CLN
 - [ ] LDK (sample node)
 - [x] Dockerfile
-- [ ] Replace algorithm from Go to Phython
-- [ ] Local LLMs (Llama)
+- [x] Replace algorithm from Go to Phython
+- [x] Local LLMs (Llama)
 - [ ] Eclair
 - [ ] Release in 2024 (beta)
 - [ ] BOLT12
