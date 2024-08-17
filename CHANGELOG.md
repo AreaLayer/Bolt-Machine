@@ -1,3 +1,0 @@
-## Bolt Machine releases
-
-TBD
