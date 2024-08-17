@@ -58,9 +58,3 @@ To run this program, you need to have the following prerequisites installed:
 ## License
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-### Key Changes:
-1. **Language Shift**: Documentation has been updated to reference Python instead of Go.
-2. **API Update**: All mentions of OpenAI have been replaced with Ollama API.
-3. **Installation Instructions**: Updated installation commands to use Python’s package management (`pip`) instead of Go.
-4. **Running the Program**: Instructions for running the Python script have been updated accordingly.
