@@ -1,3 +1,0 @@
-# Bolt Machine Development
-
-TBD
