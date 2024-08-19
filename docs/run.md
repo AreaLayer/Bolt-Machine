@@ -2,7 +2,7 @@
 # Bolt Machine
 
 ## Overview
-This Python program demonstrates an algorithm for managing channels in a Lightning Network. It uses various modules to perform actions such as opening, closing, replacing channels, and finding better inbound liquidity. The program incorporates APIs from Ollama and Aperture for enhanced functionality.
+This Python program demonstrates an algorithm for managing channels in a Lightning Network. It uses various modules to perform actions such as opening, closing, replacing channels, and finding better inbound liquidity. The program incorporates APIs from Ollama  for enhanced functionality.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ To run this program, you need to have the following prerequisites installed:
 
 3. Install the necessary Python packages:
    ```bash
-   pip install ollama aperture
+   pip install ollama 
    pip install lnd-grpc
    ```
 
@@ -33,11 +33,7 @@ To run this program, you need to have the following prerequisites installed:
    - Obtain an Ollama API key from the Ollama website.
    - Replace `"YOUR_OLLAMA_API_KEY"` in the code with your actual API key.
 
-2. Set up Aperture API:
-   - Obtain an Aperture API token from the Aperture website.
-   - Replace `"YOUR_APERTURE_API_TOKEN"` in the code with your actual API token.
-
-3. Set up LND:
+2. Set up LND:
    - Ensure LND is properly installed and running.
    - Configure the LND connection details (host, port, TLS certificate) in the code.
 
