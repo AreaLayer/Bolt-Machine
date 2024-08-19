@@ -64,7 +64,7 @@ nest-asyncio==1.6.0
 notebook==7.2.1
 notebook_shim==0.2.4
 numexpr==2.10.1
-numpy==2.0.1
+numpy==2.1.0
 openai>=1.10.0,<2.0.0
 openapi-schema-pydantic==1.2.4
 overrides==7.7.0
