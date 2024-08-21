@@ -52,44 +52,31 @@ class AI:
 
         print("Closing channel...")
 
-    def replace_channel(self, aperture_client, ollama_client):
+    def replace_channel(self, ollama_client):
         # Gather information about available nodes and channels
-        # ...
-
-        # Close existing channels using the Aperture API
-        try:
-            aperture_client.close_channels("your-node-id", ["channel-id1", "channel-id2"])
-        except Exception as e:
-            print(f"Error: {e}")
-            return
-
-        # Follow the steps for opening a new channel using the Ollama LLM
-        self.open_channel(ollama_client)
-
+        prompt = f"""
+        Consider the following methods:
+        - open_channel
+        - close_channel
+        - replace_channel
+        - find_better_inbound_
+        """
         print("Replacing channel...")
 
     def find_better_inbound_liquidity(self, aperture_client):
         # Collect information about your node's current inbound liquidity and associated channels
-        # ...
-
-        # Close channels with insufficient liquidity using the Aperture API
-        try:
-            aperture_client.close_channels("your-node-id", ["channel-id1", "channel-id2"])
-        except Exception as e:
-            print(f"Error: {e}")
-            return
-
-        # Follow the steps for opening new channels with nodes that provide better inbound liquidity
-        # ...
-
-        print("Finding better inbound liquidity...")
+       prompt = f"""
+       Consider the following methods:
+        - open_channel
+        - close_channel
+        - replace_channel
+        """
+    print("Finding better inbound liquidity...")
 
 def main():
     ollama_key = "YOUR_OLLAMA_API_KEY"
-    aperture_token = "YOUR_APERTURE_API_TOKEN"
 
     ollama_client = Ollama(api_key=ollama_key)
-    aperture_client = Aperture(token=aperture_token)
 
     ai = AI(
         nodes=[
@@ -120,11 +107,9 @@ def main():
     if action == 0:
         ai.open_channel(ollama_client)
     elif action == 1:
-        ai.close_channel(aperture_client)
+        ai.replace_channel(ollama_client)
     elif action == 2:
-        ai.replace_channel(aperture_client, ollama_client)
-    elif action == 3:
-        ai.find_better_inbound_liquidity(aperture_client)
+        ai.find_better_inbound_liquidity
     else:
         print("Invalid action")
 
