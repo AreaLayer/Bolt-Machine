@@ -1,1 +1,0 @@
-const lightning = require ('lightning');

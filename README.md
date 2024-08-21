@@ -20,20 +20,11 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 ## Roadmap
 
 - [x] Initial algorithm development
-- [ ] FOSS in 2024
-- [ ] Compile PY
-- [ ] CLI
 - [x] Clear documentation
-- [ ] CLN
-- [ ] LDK (sample node)
 - [x] Dockerfile
 - [x] Replace algorithm from Go to Phython
 - [x] Local LLMs (Llama)
-- [ ] Eclair
 - [ ] Release in 2024 (beta)
-- [ ] Testnet4
-- [ ] Testnet3
-- [ ] Tests
 
 
 ## Contributors
