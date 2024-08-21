@@ -23,7 +23,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [x] Clear documentation
 - [x] Replace algorithm from Go to Phython
 - [x] Local LLMs (Llama)
-- [ ] Release in 2024 (beta)
+- [x] Release in 2024 (beta)
 
 
 ## Contributors
