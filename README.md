@@ -21,7 +21,6 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
 - [x] Initial algorithm development
 - [x] Clear documentation
-- [x] Dockerfile
 - [x] Replace algorithm from Go to Phython
 - [x] Local LLMs (Llama)
 - [ ] Release in 2024 (beta)
