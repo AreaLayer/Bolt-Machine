@@ -1,6 +1,5 @@
 import random
 from ollama import Ollama
-from aperture import Aperture
 
 class Channel:
     def __init__(self, node_id, channel_id, liquidity, fees, activity):
@@ -21,13 +20,22 @@ class AI:
         self.nodes = nodes
 
     def open_channel(self, ollama_client):
-        # Gather information about available nodes and channels
-        # ...
-
+        # Gather information about available nodes and channel
+        self.nodes = self.nodes  # Assuming self.nodes is already defined in __init__
         # Use the Ollama LLM to generate text based on your inputs
         response = ollama_client.complete(
-            model="your-ollama-model",
+            model="ai_ln",
             # Add other required parameters for text generation
+            prompt=f"""
+            Consider the following methods:
+            - open_channel
+            - close_channel
+            - replace_channel
+            - find_better_inbound_liquidity
+
+            Based on the current network state and node information, 
+            suggest the best action to take for optimal channel management.
+            """
         )
 
         # Process the API response and perform further actions
@@ -37,14 +45,7 @@ class AI:
 
     def close_channel(self, aperture_client):
         # Retrieve information about open channels associated with your node
-        # ...
-
-        # Use the Aperture API to close channels
-        try:
-            aperture_client.close_channels("your-node-id", ["channel-id1", "channel-id2"])
-        except Exception as e:
-            print(f"Error: {e}")
-            return
+        
 
         print("Closing channel...")
 
