@@ -38,14 +38,17 @@ class AI:
             """
         )
 
-        # Process the API response and perform further actions
-        # ...
-
         print("Opening channel...")
 
-    def close_channel(self, aperture_client):
+    def close_channel(self, ollama_client):
         # Retrieve information about open channels associated with your node
-        
+        prompt = f"""
+        Consider the following methods:
+        - open_channel
+        - close_channel
+        - replace_channel
+        - find_better_inbound_liquidity
+        """
 
         print("Closing channel...")
 
