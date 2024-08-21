@@ -5,7 +5,7 @@
 
 >AI Agent for Node Runners help find better inbound liquidity, reblance, open and close channel on Lightning Network
 
-**⚠️Alpha software**
+**⚠️Beta software**
 
 **⚠️Use small amount**
 
