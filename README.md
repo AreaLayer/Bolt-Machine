@@ -31,8 +31,6 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 - [x] Local LLMs (Llama)
 - [ ] Eclair
 - [ ] Release in 2024 (beta)
-- [ ] BOLT12
-- [ ] BOLT11
 - [ ] Testnet4
 - [ ] Testnet3
 - [ ] Tests
