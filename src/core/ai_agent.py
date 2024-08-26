@@ -17,9 +17,6 @@ def inbound (a: int , b: int) -> int:
 
 def outbound (a: int , b: int) -> int:
     "multiple data about outbound liquidity"
-(a: int , b: int) -> int:
-    "multiple data about outbound liquidity"
-
 
 def multiply(a: int, b: int) -> int:
     """Multiple two integers and returns the result integer"""
