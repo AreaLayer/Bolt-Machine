@@ -15,7 +15,8 @@ def data (a:int , b: int) -> int:
 def inbound (a: int , b: int) -> int:
     "multiple data about inbound liquidity"
 
-def outbound
+def outbound (a: int , b: int) -> int:
+    "multiple data about outbound liquidity"
 (a: int , b: int) -> int:
     "multiple data about outbound liquidity"
 
