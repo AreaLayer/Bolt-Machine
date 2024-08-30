@@ -1,5 +1,7 @@
 import random
+import lightning
 from ollama import Ollama
+from ligthning import Channel, Node
 
 class Channel:
     def __init__(self, node_id, channel_id, liquidity, fees, activity):
