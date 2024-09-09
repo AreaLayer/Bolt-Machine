@@ -36,8 +36,9 @@ add_tool = FunctionTool.from_defaults(fn=add)
 def data (a:int, b:int ) -> int:
     "multiple push data around APIs"
 
-def api (a:int , b:int ) -> int
+def api(a: int, b: int) -> int:
     "multiple push apis"
 
-def ligjtningnode (a: int , b:int ) -> int
-"multiple push lightning nodes"
+def ligjtningnode(a: int, b: int) -> int:
+    "multiple push lightning nodes"
+    return a * b  # Placeholder implementation
