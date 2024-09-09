@@ -19,11 +19,9 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
 ## Roadmap
 
-- [x] Initial algorithm development
-- [x] Clear documentation
-- [x] Replace algorithm from Go to Phython
-- [x] Local LLMs (Llama)
-- [x] Release in 2024 (beta)
+-  [ ] LDK
+-  [ ] LNBits
+-  [ ] CLN Plugin
 
 
 ## Contributors
