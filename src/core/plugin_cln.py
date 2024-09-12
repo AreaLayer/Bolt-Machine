@@ -5,14 +5,8 @@ import time
 plugin = Plugin()
 
 
-@plugin.method("hello")
-def hello(plugin, name="world"):
-    """This is the documentation string for the hello-function.
-
-    It gets reported as the description when registering the function
-    as a method with `lightningd`.
-
-    """
+@plugin.method("Welcome to the Bolt Machine Plugin")
+def hello(plugin, name="Bolt Machine"):
     greeting = plugin.get_option('greeting')
     s = '{} {}'.format(greeting, name)
     plugin.log(s)
