@@ -13,28 +13,23 @@ def hello(plugin, name="Bolt Machine"):
     return s
 
 
-@plugin.method("bye")
 def bye(plugin, name, **kwargs):
     """This method requires {name} to be set by the caller !"""
     return "Bye {}".format(name)
 
 
-@plugin.init()
 def init(options, configuration, plugin, **kwargs):
     plugin.log("Plugin helloworld.py initialized")
 
 
-@plugin.subscribe("connect")
 def on_connect(plugin, id, address, **kwargs):
     plugin.log("Received connect event for peer {}".format(id))
 
 
-@plugin.subscribe("disconnect")
 def on_disconnect(plugin, id, **kwargs):
     plugin.log("Received disconnect event for peer {}".format(id))
 
 
-@plugin.subscribe("invoice_payment")
 def on_payment(plugin, invoice_payment, **kwargs):
     plugin.log("Received invoice_payment event for label {label}, preimage {preimage},"
                " and amount of {msat}".format(**invoice_payment))
