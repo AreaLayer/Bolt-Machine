@@ -21,7 +21,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
 -  [ ] LDK
 -  [ ] LNBits
--  [ ] CLN Plugin
+-  [x] CLN Plugin
 
 
 ## Contributors
