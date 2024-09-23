@@ -1,52 +1,74 @@
-#!/usr/bin/env python3
-from pyln.client import Plugin
 import time
 
-plugin = Plugin()
+class AIAgent:
+    def log(self, message):
+        print(f"[LOG]: {message}")
+        
+    def respond(self, message):
+        print(f"[RESPONSE]: {message}")
 
+# Greeting Agent
+class GreetingAgent(AIAgent):
+    def greet(self, name="Bolt Machine"):
+        greeting = "Hello"
+        s = f"{greeting} {name}"
+        self.log(s)
+        return s
 
-@plugin.method("Welcome to the Bolt Machine Plugin")
-def hello(plugin, name="Bolt Machine"):
-    greeting = plugin.get_option('greeting')
-    s = '{} {}'.format(greeting, name)
-    plugin.log(s)
-    return s
+# Farewell Agent
+class FarewellAgent(AIAgent):
+    def farewell(self, name):
+        self.log(f"Farewell {name}")
+        return f"Bye {name}"
 
+# Connection Monitoring Agent
+class ConnectionAgent(AIAgent):
+    def on_connect(self, id, address):
+        self.log(f"Received connect event for peer {id}")
+    
+    def on_disconnect(self, id):
+        self.log(f"Received disconnect event for peer {id}")
 
-def bye(plugin, name, **kwargs):
-    """This method requires {name} to be set by the caller !"""
-    return "Bye {}".format(name)
+# Payment Agent
+class PaymentAgent(AIAgent):
+    def on_payment(self, invoice_payment):
+        self.log(f"Received payment for {invoice_payment['label']} amount {invoice_payment['msat']}")
+        return f"Payment processed: {invoice_payment}"
 
+# Invoice Creation Agent
+class InvoiceCreationAgent(AIAgent):
+    def on_invoice_creation(self, invoice_creation):
+        self.log(f"Invoice created: {invoice_creation['label']} for {invoice_creation['msat']}")
+        return f"Invoice created: {invoice_creation}"
 
-def init(options, configuration, plugin, **kwargs):
-    plugin.log("Plugin helloworld.py initialized")
+# HTLC Agent
+class HTLCAgent(AIAgent):
+    def on_htlc_accepted(self, onion, htlc):
+        self.log('HTLC accepted, waiting 20 seconds...')
+        time.sleep(20)
+        return {'result': 'continue'}
 
+# Central AI System
+class AISystem:
+    def __init__(self):
+        self.greeting_agent = GreetingAgent()
+        self.farewell_agent = FarewellAgent()
+        self.connection_agent = ConnectionAgent()
+        self.payment_agent = PaymentAgent()
+        self.invoice_agent = InvoiceCreationAgent()
+        self.htlc_agent = HTLCAgent()
 
-def on_connect(plugin, id, address, **kwargs):
-    plugin.log("Received connect event for peer {}".format(id))
+    def run_agents(self):
+        # Simulate events
+        print(self.greeting_agent.greet("Alice"))
+        print(self.farewell_agent.farewell("Bob"))
+        self.connection_agent.on_connect("peer1", "192.168.1.1")
+        self.connection_agent.on_disconnect("peer1")
+        self.payment_agent.on_payment({"label": "test_payment", "msat": 1000})
+        self.invoice_agent.on_invoice_creation({"label": "test_invoice", "msat": 5000})
+        self.htlc_agent.on_htlc_accepted("onion_data", "htlc_data")
 
-
-def on_disconnect(plugin, id, **kwargs):
-    plugin.log("Received disconnect event for peer {}".format(id))
-
-
-def on_payment(plugin, invoice_payment, **kwargs):
-    plugin.log("Received invoice_payment event for label {label}, preimage {preimage},"
-               " and amount of {msat}".format(**invoice_payment))
-
-
-@plugin.subscribe("invoice_creation")
-def on_invoice_creation(plugin, invoice_creation, **kwargs):
-    plugin.log("Received invoice_creation event for label {label}, preimage {preimage},"
-               " and amount of {msat}".format(**invoice_creation))
-
-
-@plugin.hook("htlc_accepted")
-def on_htlc_accepted(onion, htlc, plugin, **kwargs):
-    plugin.log('on_htlc_accepted called')
-    time.sleep(20)
-    return {'result': 'continue'}
-
-
-plugin.add_option('greeting', 'Hello', 'The greeting I should use.')
-plugin.run()
+# Run the AI system
+if __name__ == "__main__":
+    ai_system = AISystem()
+    ai_system.run_agents()
