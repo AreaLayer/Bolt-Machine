@@ -1,4 +1,11 @@
 import time
+import time
+
+plugin = Plugin()
+
+class Plugin:
+    def __init__(self):
+        self.agents = []
 
 class AIAgent:
     def log(self, message):
