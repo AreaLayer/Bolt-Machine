@@ -11,3 +11,20 @@ def get_balance(address):
     Returns:
         float: The balance of the address.
     """
+
+def get_transactions(address):
+    """
+    Retrieves the transactions of a Bitcoin address.
+    Args:
+        address (str): The Bitcoin address.
+        Returns:
+        list: A list of transactions associated with the address.
+    """
+    def get_address_history(address):
+        """
+        Retrieves the transaction history of a Bitcoin address.
+        Args:
+            address (str): The Bitcoin address.
+        Returns:
+            list: A list of transactions associated with the address.
+        """
