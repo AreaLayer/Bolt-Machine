@@ -19,7 +19,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
 ## Roadmap
 
--  [ ] LDK
+-  [x] LDK (WIP)
 -  [ ] LNBits Extension
 -  [x] CLN Plugin
 
