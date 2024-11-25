@@ -22,6 +22,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 -  [x] LDK (WIP)
 -  [ ] LNBits Extension
 -  [x] CLN Plugin
+-  [ ] Out of beta in 2025
 
 
 ## Contributors
