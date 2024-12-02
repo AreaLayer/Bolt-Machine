@@ -10,7 +10,7 @@ To run this program, you need to have the following prerequisites installed:
 - Python 3.9+
 - Ollama API key
 - LND (Lightning Network Daemon) configured and running the latest version
-- LND Node and CLN soon
+- CLN soon
 
 ## Installation
 1. Clone the repository:
