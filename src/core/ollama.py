@@ -112,6 +112,7 @@ def main():
         ai.replace_channel(ollama_client)
     elif action == 2:
         ai.find_better_inbound_liquidity
+        ai.close_channel(ollama_client)
     else:
         print("Invalid action")
 
