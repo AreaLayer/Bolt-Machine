@@ -37,3 +37,10 @@ def get_address_balance(address):
     Returns:
         float: The balance of the address.
     """
+
+def get_channel():
+    """
+    Retrieves the channels of a Lightning Network node.
+    Returns:
+        list: A list of channels.
+    """
