@@ -44,3 +44,12 @@ def get_channel():
     Returns:
         list: A list of channels.
     """
+
+def get_channel_balance(channel_id):
+        """
+        Retrieves the balance of a Lightning Network channel.
+        Args:
+            channel_id (str): The channel ID.
+        Returns:
+            float: The balance of the channel.
+        """
