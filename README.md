@@ -11,7 +11,7 @@
 
 **⚠️Don't use for mainnet**
 
-**⚠️Currenctly support only LND**
+**⚠️Currenctly support only LND and CLN**
 
 ## Run AI Agent
 
