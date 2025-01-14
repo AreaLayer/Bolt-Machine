@@ -11,7 +11,7 @@
 
 **⚠️Don't use for mainnet**
 
-**⚠️Currenctly support only LND and CLN**
+**⚠️Currenctly support only LND, LDK and CLN**
 
 ## Run AI Agent
 
@@ -19,7 +19,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
 ## Roadmap
 
--  [x] LDK (WIP)
+-  [x] LDK 
 -  [ ] LNBits Extension
 -  [x] CLN Plugin
 
