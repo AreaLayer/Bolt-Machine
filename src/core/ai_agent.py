@@ -42,3 +42,7 @@ def api(a: int, b: int) -> int:
 def ligjtningnode(a: int, b: int) -> int:
     "multiple push lightning nodes"
     return a * b  # Placeholder implementation
+
+def lightningnode(a: int, b: int) -> int:
+    "multiple push lightning nodes"
+    return a * b  # Placeholder implementation
