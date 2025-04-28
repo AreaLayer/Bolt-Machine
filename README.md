@@ -19,7 +19,7 @@ Check [here](https://github.com/AreaLayer/Bolt-Machine/blob/main/docs/run.md)
 
 ## Roadmap
 
--  [ ] LNBits Extension
+-  [x] LNBits Extension (WIP)
 -  [ ] Out of beta
 -  [ ] Official Bolt version
 
