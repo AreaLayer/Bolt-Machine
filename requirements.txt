@@ -1,5 +1,5 @@
 lnd-grpc == 0.4.0
-ollama ==0.5.1
+ollama ==0.5.2
 flask ==3.1.1
 ldk-garbagecollected==0.0.125.0
 pyln-client==25.5 
